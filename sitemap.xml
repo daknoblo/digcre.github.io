@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://dev.digcre.io/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dev.digcre.io/tags/get-started/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dev.digcre.io/post/getting-started/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dev.digcre.io/tags/guide/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dev.digcre.io/post/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dev.digcre.io/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dev.digcre.io/tags/configuration/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dev.digcre.io/tags/customize/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dev.digcre.io/post/hugo-built-in-global-configuration/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dev.digcre.io/tags/settings/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dev.digcre.io/post/theme-custom-global-configuration/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dev.digcre.io/post/page-configuration/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dev.digcre.io/post/example-config-yaml/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dev.digcre.io/post/additional-info/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dev.digcre.io/tags/license/</loc>
+  </url>
+  
+</urlset>
