@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Detect Hardware Unit Hang | digital-creations</title>
+  <title>Detect Proxmox hardware unit hang | digital-creations</title>
   
   
   
@@ -17,9 +17,8 @@
 
 
 
-<meta name="title" content="Detect Hardware Unit Hang | digital-creations" />
-<meta name="description" content="Recently I had some issues with the reliability of my local network connection from the proxmox host and their services. This showed up with application crashes on a Windows 11 VM where explorer.exe restarted every time I connected to his VM or Plex buffered the stream in random situations. Turns out this was due the reset of the built-in network card on the proxmox host.
-In the proxmox syslog you can see messages like this:"> 
+<meta name="title" content="Detect Proxmox hardware unit hang | digital-creations" />
+<meta name="description" content="VM connectivity was somehow blocked"> 
 
 
 <link rel="canonical" href="https://dev.digcre.io/post/2022/detect-hardware-unit-hang/" />
@@ -27,8 +26,8 @@ In the proxmox syslog you can see messages like this:">
 
   
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:description" content="" /> 
-  <meta name="twitter:title" content="Detect Hardware Unit Hang | digital-creations" />
+  <meta name="twitter:description" content="VM connectivity was somehow blocked" /> 
+  <meta name="twitter:title" content="Detect Proxmox hardware unit hang | digital-creations" />
   <meta name="twitter:url" content="https://dev.digcre.io/post/2022/detect-hardware-unit-hang/" />
   <meta name="twitter:site" content="@Softorage" /> 
   <meta name="twitter:creator" content="@Softorage" /> 
@@ -38,7 +37,7 @@ In the proxmox syslog you can see messages like this:">
 
 
 
-<meta property="article:published_time" content="2023-01-26 17:30:02 &#43;0100 CET" />
+<meta property="article:published_time" content="2022-01-05 00:00:00 &#43;0000 UTC" />
 
 
   
@@ -47,19 +46,24 @@ In the proxmox syslog you can see messages like this:">
       { 
           "@context": "http://schema.org", 
           "@type": "BlogPosting",
-          "headline": "Detect Hardware Unit Hang",
+          "headline": "Detect Proxmox hardware unit hang",
           
           "url": "https://dev.digcre.io",
           
-          "datePublished": "2023-01-26T17:30:02+01:00",
+          "datePublished": "2022-01-05T00:00:00Z",
           
           
-          "dateModified": "2023-01-26T17:30:02+01:00",
+          "dateModified": "2022-01-05T00:00:00Z",
           
-          "description": ,
+          "description": VM connectivity was somehow blocked,
           
           "logo": "/assets/favicon/android-chrome-512x512.png",
           
+          
+          "author": {
+              "@type": "Person",
+              "name": "Daniel"
+          },
           
           "publisher": {
             "@type": "Organization",
@@ -87,6 +91,8 @@ In the proxmox syslog you can see messages like this:">
   
 
 
+    
+    <meta name="generator" content="Hugo 0.110.0">
   
   
   
@@ -160,8 +166,8 @@ In the proxmox syslog you can see messages like this:">
 <div id="content">
 <div class="container-fluid  text-light text-center bg-clr1 pb-3 pt-4 shadow position-relative">
   <div style="height:3.5rem;"></div>
-  <h1>Detect Hardware Unit Hang</h1>
-  <p class="description"></p>
+  <h1>Detect Proxmox hardware unit hang</h1>
+  <p class="description">VM connectivity was somehow blocked</p>
 </div>
 <div class="container-fluid bg-nav p-4">
   <div class="row">
@@ -171,7 +177,12 @@ In the proxmox syslog you can see messages like this:">
         <div class="h4 mb-3">
         Contents
         </div>
-        <nav id="TableOfContents"></nav>
+        <nav id="TableOfContents">
+  <ol>
+    <li><a href="#detect-the-problem">Detect the problem</a></li>
+    <li><a href="#resolve-the-problem">Resolve the problem</a></li>
+  </ol>
+</nav>
       </div>
       
     </div>
@@ -198,7 +209,7 @@ In the proxmox syslog you can see messages like this:">
               
                 
               
-            By Daniel &#183; 460 words &#183; 3 min read &#183; <span class=''>Last updated: January 26, 2023</div>
+            By Daniel &#183; 476 words &#183; 3 min read &#183; <span class=''>Last updated: January 5, 2022</div>
           
           
           
@@ -210,21 +221,25 @@ In the proxmox syslog you can see messages like this:">
               <div class="col p-0">
                 <span class="lead">
                   
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fdev.digcre.io%2fpost%2f2022%2fdetect-hardware-unit-hang%2f&quote=Detect%20Proxmox%20hardware%20unit%20hang" rel="noreferrer nofollow" target="_blank" title="Share on Facebook" aria-label="Share on Facebook"><span class="fab fa-facebook"></span></a>&nbsp;&nbsp;
                   
                   
-                    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fdev.digcre.io%2fpost%2f2022%2fdetect-hardware-unit-hang%2f&title=Detect%20Hardware%20Unit%20Hang&summary=&source=digital-creations" rel="noreferrer nofollow" target="_blank" title="Share on LinkedIn" aria-label="Share on LinkedIn"><span class="fab fa-linkedin"></span></a>&nbsp;&nbsp;
+                    <a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fdev.digcre.io%2fpost%2f2022%2fdetect-hardware-unit-hang%2f&text=Detect%20Proxmox%20hardware%20unit%20hang:%0Ahttps%3a%2f%2fdev.digcre.io%2fpost%2f2022%2fdetect-hardware-unit-hang%2f" rel="noreferrer nofollow" target="_blank" title="Share on Twitter" aria-label="Share on Twitter"><span class="fab fa-twitter"></span></a>&nbsp;&nbsp;
                   
                   
-                    <a href="https://t.me/share/url?url=https%3a%2f%2fdev.digcre.io%2fpost%2f2022%2fdetect-hardware-unit-hang%2f&text=Detect%20Hardware%20Unit%20Hang" rel="noreferrer nofollow" target="_blank" title="Share on Telegram" aria-label="Share on Telegram"><span class="fab fa-telegram"></span></a>&nbsp;&nbsp;
+                    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fdev.digcre.io%2fpost%2f2022%2fdetect-hardware-unit-hang%2f&title=Detect%20Proxmox%20hardware%20unit%20hang&summary=VM%20connectivity%20was%20somehow%20blocked&source=digital-creations" rel="noreferrer nofollow" target="_blank" title="Share on LinkedIn" aria-label="Share on LinkedIn"><span class="fab fa-linkedin"></span></a>&nbsp;&nbsp;
                   
                   
-                    <a href="whatsapp://send?text=https%3a%2f%2fdev.digcre.io%2fpost%2f2022%2fdetect-hardware-unit-hang%2f%0A%0ADetect%20Hardware%20Unit%20Hang" data-text="Detect Hardware Unit Hang" data-href="https://dev.digcre.io/post/2022/detect-hardware-unit-hang/" rel="noreferrer nofollow" target="_blank" title="Share on Whatsapp" aria-label="Share on Whatsapp"><span class="fab fa-whatsapp"></span></a>&nbsp;&nbsp;
+                    <a href="https://t.me/share/url?url=https%3a%2f%2fdev.digcre.io%2fpost%2f2022%2fdetect-hardware-unit-hang%2f&text=Detect%20Proxmox%20hardware%20unit%20hang" rel="noreferrer nofollow" target="_blank" title="Share on Telegram" aria-label="Share on Telegram"><span class="fab fa-telegram"></span></a>&nbsp;&nbsp;
                   
                   
-                    <a href="https://reddit.com/submit?url=https%3a%2f%2fdev.digcre.io%2fpost%2f2022%2fdetect-hardware-unit-hang%2f&title=Detect%20Hardware%20Unit%20Hang" rel="noreferrer nofollow" target="_blank" title="Share on Reddit" aria-label="Share on Reddit"><span class="fab fa-reddit"></span></a>&nbsp;&nbsp;
+                    <a href="whatsapp://send?text=https%3a%2f%2fdev.digcre.io%2fpost%2f2022%2fdetect-hardware-unit-hang%2f%0A%0ADetect%20Proxmox%20hardware%20unit%20hang" data-text="Detect Proxmox hardware unit hang" data-href="https://dev.digcre.io/post/2022/detect-hardware-unit-hang/" rel="noreferrer nofollow" target="_blank" title="Share on Whatsapp" aria-label="Share on Whatsapp"><span class="fab fa-whatsapp"></span></a>&nbsp;&nbsp;
                   
                   
-                    <a href="mailto:?subject=Detect%20Hardware%20Unit%20Hang&body=%0A%0Ahttps%3a%2f%2fdev.digcre.io%2fpost%2f2022%2fdetect-hardware-unit-hang%2f" target="_blank" title="Share via email" aria-label="Share via email"><span class="fas fa-envelope"></span></a>
+                    <a href="https://reddit.com/submit?url=https%3a%2f%2fdev.digcre.io%2fpost%2f2022%2fdetect-hardware-unit-hang%2f&title=Detect%20Proxmox%20hardware%20unit%20hang" rel="noreferrer nofollow" target="_blank" title="Share on Reddit" aria-label="Share on Reddit"><span class="fab fa-reddit"></span></a>&nbsp;&nbsp;
+                  
+                  
+                    <a href="mailto:?subject=Detect%20Proxmox%20hardware%20unit%20hang&body=VM%20connectivity%20was%20somehow%20blocked%0A%0Ahttps%3a%2f%2fdev.digcre.io%2fpost%2f2022%2fdetect-hardware-unit-hang%2f" target="_blank" title="Share via email" aria-label="Share via email"><span class="fas fa-envelope"></span></a>
                   
                 </span>
               </div>
@@ -239,9 +254,11 @@ In the proxmox syslog you can see messages like this:">
       
       
       <div class="py-3 my-2">
-      <p>Recently I had some issues with the reliability of my local network connection from the proxmox host and their services. This showed up with application crashes on a Windows 11 VM where explorer.exe restarted every time I connected to his VM or Plex buffered the stream in random situations. Turns out this was due the reset of the built-in network card on the proxmox host.</p>
-<p>In the proxmox syslog you can see messages like this:</p>
+      <p>Recently I had some issues with the reliability of my local network connections from the proxmox host and their services. This came up with application crashes on a Windows 11 VM where explorer.exe restarted every time I connected to this VM via RDP or Plex started buffering the stream in random situations. Turns out this was due the reset of the built-in network card on the proxmox host itself.</p>
+<h2 id="detect-the-problem">Detect the problem</h2>
+<p>In proxmox syslog I saw alot messages like these:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span> 
+</span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>Jan <span style="color:#ae81ff">05</span> 12:31:21 pve kernel: e1000e 0000:00:1f.6 eno1: Detected Hardware Unit Hang:
 </span></span><span style="display:flex;"><span>  TDH                  &lt;c9&gt;
 </span></span><span style="display:flex;"><span>  TDT                  &lt;10&gt;
@@ -263,13 +280,14 @@ In the proxmox syslog you can see messages like this:">
 </span></span><span style="display:flex;"><span>Jan <span style="color:#ae81ff">05</span> 12:31:26 pve kernel: vmbr0: port 1<span style="color:#f92672">(</span>eno1<span style="color:#f92672">)</span> entered blocking state
 </span></span><span style="display:flex;"><span>Jan <span style="color:#ae81ff">05</span> 12:31:26 pve kernel: vmbr0: port 1<span style="color:#f92672">(</span>eno1<span style="color:#f92672">)</span> entered forwarding state
 </span></span><span style="display:flex;"><span>Jan <span style="color:#ae81ff">05</span> 12:31:28 pve pvestatd<span style="color:#f92672">[</span>1119<span style="color:#f92672">]</span>: status update time <span style="color:#f92672">(</span>6.257 seconds<span style="color:#f92672">)</span></span></span></code></pre></div>
-<p>I have a Intel I219-LM onboard Chip and after searching around it looks like this is a well known problem.</p>
+<p>I have a Intel I219-LM onboard Chip and after searching around it looks like this was a well known problem.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>root@pve:~# lspci -v | grep Ethernet
 </span></span><span style="display:flex;"><span>00:1f.6 Ethernet controller: Intel Corporation Ethernet Connection <span style="color:#f92672">(</span>7<span style="color:#f92672">)</span> I219-LM <span style="color:#f92672">(</span>rev 10<span style="color:#f92672">)</span>
 </span></span><span style="display:flex;"><span>        DeviceName: Onboard - Ethernet
 </span></span><span style="display:flex;"><span>        Subsystem: Lenovo Ethernet Connection <span style="color:#f92672">(</span>7<span style="color:#f92672">)</span> I219-LM</span></span></code></pre></div>
 <p>There are multiple variations of this problem with different NICs, but for me and many others it solved to problem when you disable offloading.</p>
-<p>Go to /etc/network/interfaces and add the last 2 lines with the parameters, check that the interface names are correct.</p>
+<h2 id="resolve-the-problem">Resolve the problem</h2>
+<p>Go to /etc/network/interfaces and add the last 2 lines with the parameters, check that the interface names are correct (via &ldquo;ip a&rdquo; for example).</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>auto vmbr0
 </span></span><span style="display:flex;"><span>iface vmbr0 inet static
 </span></span><span style="display:flex;"><span>        address 10.10.5.0/24
@@ -296,8 +314,7 @@ In the proxmox syslog you can see messages like this:">
 </span></span><span style="display:flex;"><span>       valid_lft forever preferred_lft forever
 </span></span><span style="display:flex;"><span>    inet6 fe80::fa75:a4ff:fe20:1079/64 scope link 
 </span></span><span style="display:flex;"><span>       valid_lft forever preferred_lft forever</span></span></code></pre></div>
-<p>After a reboot my network interface is now stable and works as expeceted.</p>
-
+<p>After applying and a reboot, my network interface is now stable and works as expeceted.</p>
       </div>
       
       
@@ -320,7 +337,7 @@ In the proxmox syslog you can see messages like this:">
           </div>
         
           
-            <div class="mt-3"></div>
+            <div class="mt-3"><a href="/tags/virtualization/"><span class="badge badge-pill bg-clr2 text-nav mr-2 py-2">#VIRTUALIZATION</span></a><a href="/tags/proxmox/"><span class="badge badge-pill bg-clr2 text-nav mr-2 py-2">#PROXMOX</span></a></div>
           
         
         </div>
@@ -328,6 +345,30 @@ In the proxmox syslog you can see messages like this:">
     </div>
   </div>
   
+  
+    <div class="my-5">
+      <div id="disqus_thread"></div>
+<script type="application/javascript">
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "numark1" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      
+    </div>
   
   
 </div>

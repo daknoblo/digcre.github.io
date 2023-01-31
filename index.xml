@@ -7,57 +7,42 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;#169; 2023 Daniel Knobloch</copyright>
-    <lastBuildDate>Tue, 06 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Jan 2023 14:13:10 +0100</lastBuildDate>
     
 	<atom:link href="https://dev.digcre.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Getting started with Vibrant Shadows</title>
-      <link>https://dev.digcre.io/post/getting-started/</link>
+      <title>Projects</title>
+      <link>https://dev.digcre.io/pages/projects/</link>
       
-      <guid>https://dev.digcre.io/post/getting-started/</guid>
-      <description>&lt;p&gt;It&amp;rsquo;s very easy to get started with Vibrant Shadows. How? Read on.&lt;/p&gt;</description>
+      <guid>https://dev.digcre.io/pages/projects/</guid>
+      <description>Overview of current projects Technology Description Link Proxmox &amp;amp; VMs Read Docker Enable hw transcoding for a plex docker container Read Tasmota </description>
     </item>
     
     <item>
-      <title>Hugo&#39;s built-in global configurations</title>
-      <link>https://dev.digcre.io/post/hugo-built-in-global-configuration/</link>
+      <title>about</title>
+      <link>https://dev.digcre.io/pages/about/</link>
       
-      <guid>https://dev.digcre.io/post/hugo-built-in-global-configuration/</guid>
-      <description>&lt;p&gt;Options that Hugo has built-in and are relevant to this theme. If something is not covered here (or elsewhere in this file), there&amp;rsquo;s a good chance it is covered in &lt;a href=&#34;https://gohugo.io/getting-started/configuration/#configuration-file&#34;&gt;this Hugo docs page&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid>https://dev.digcre.io/pages/about/</guid>
+      <description>Welcome to my blog ! Location: Europe | Germany | Dresden
+Hi this is Daniel…</description>
     </item>
     
     <item>
-      <title>Custom configuration options in the theme</title>
-      <link>https://dev.digcre.io/post/theme-custom-global-configuration/</link>
+      <title>Running Plex in Docker with Hardware Transcoding</title>
+      <link>https://dev.digcre.io/post/2023/2023-12-23-plex-on-docker-with-hw-transcoding/</link>
       
-      <guid>https://dev.digcre.io/post/theme-custom-global-configuration/</guid>
-      <description>&lt;p&gt;Here, we will mainly see settings that are unique to this theme. If something is not covered here (or elsewhere in this file), there&amp;rsquo;s a good chance it is covered in &lt;a href=&#34;https://gohugo.io/getting-started/configuration/#configuration-file&#34;&gt;this Hugo docs page&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid>https://dev.digcre.io/post/2023/2023-12-23-plex-on-docker-with-hw-transcoding/</guid>
+      <description>&lt;p&gt;This Post describes how to set up Plex in a Docker Container while using the hw transcoding functionality from my Quadro GPU and the nVidia Toolkit.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Page configuration options in the theme</title>
-      <link>https://dev.digcre.io/post/page-configuration/</link>
+      <title>Detect Proxmox hardware unit hang</title>
+      <link>https://dev.digcre.io/post/2022/detect-hardware-unit-hang/</link>
       
-      <guid>https://dev.digcre.io/post/page-configuration/</guid>
-      <description>&lt;p&gt;&amp;lsquo;Page paremeters&amp;rsquo; relate to the particular content file in whose front-matter they are defined.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Example config.yaml</title>
-      <link>https://dev.digcre.io/post/example-config-yaml/</link>
-      
-      <guid>https://dev.digcre.io/post/example-config-yaml/</guid>
-      <description>&lt;p&gt;An example configuration file (config.yaml), which shows all the configuration options supported by &amp;lsquo;Vibrant Shadows&amp;rsquo; theme by Softorage, with explaining comments.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Additional information about the theme</title>
-      <link>https://dev.digcre.io/post/additional-info/</link>
-      
-      <guid>https://dev.digcre.io/post/additional-info/</guid>
-      <description>&lt;p&gt;We share some additional information about this theme, that may be relevant.&lt;/p&gt;</description>
+      <guid>https://dev.digcre.io/post/2022/detect-hardware-unit-hang/</guid>
+      <description>&lt;p&gt;Recently I had some issues with the reliability of my local network connections from the proxmox host and their services. This came up with application crashes on a Windows 11 VM where explorer.exe restarted every time I connected to this VM via RDP or Plex started buffering the stream in random situations. Turns out this was due the reset of the built-in network card on the proxmox host itself.&lt;/p&gt;</description>
     </item>
     
   </channel>

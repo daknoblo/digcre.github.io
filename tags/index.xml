@@ -7,58 +7,85 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;#169; 2023 Daniel Knobloch</copyright>
-    <lastBuildDate>Tue, 06 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.digcre.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 23 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.digcre.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>get started</title>
-      <link>https://dev.digcre.io/tags/get-started/</link>
-      <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
+      <title>container</title>
+      <link>https://dev.digcre.io/tags/container/</link>
+      <pubDate>Fri, 23 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://dev.digcre.io/tags/get-started/</guid>
+      <guid>https://dev.digcre.io/tags/container/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>guide</title>
-      <link>https://dev.digcre.io/tags/guide/</link>
-      <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
+      <title>docker</title>
+      <link>https://dev.digcre.io/tags/docker/</link>
+      <pubDate>Fri, 23 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://dev.digcre.io/tags/guide/</guid>
+      <guid>https://dev.digcre.io/tags/docker/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>configuration</title>
-      <link>https://dev.digcre.io/tags/configuration/</link>
-      <pubDate>Mon, 05 Oct 2020 00:00:00 +0000</pubDate>
+      <title>linuxserver.io</title>
+      <link>https://dev.digcre.io/tags/linuxserver.io/</link>
+      <pubDate>Fri, 23 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://dev.digcre.io/tags/configuration/</guid>
+      <guid>https://dev.digcre.io/tags/linuxserver.io/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>customize</title>
-      <link>https://dev.digcre.io/tags/customize/</link>
-      <pubDate>Mon, 05 Oct 2020 00:00:00 +0000</pubDate>
+      <title>nvidia</title>
+      <link>https://dev.digcre.io/tags/nvidia/</link>
+      <pubDate>Fri, 23 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://dev.digcre.io/tags/customize/</guid>
+      <guid>https://dev.digcre.io/tags/nvidia/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>settings</title>
-      <link>https://dev.digcre.io/tags/settings/</link>
-      <pubDate>Mon, 05 Oct 2020 00:00:00 +0000</pubDate>
+      <title>nvidia-smi</title>
+      <link>https://dev.digcre.io/tags/nvidia-smi/</link>
+      <pubDate>Fri, 23 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://dev.digcre.io/tags/settings/</guid>
+      <guid>https://dev.digcre.io/tags/nvidia-smi/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>license</title>
-      <link>https://dev.digcre.io/tags/license/</link>
-      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      <title>plex</title>
+      <link>https://dev.digcre.io/tags/plex/</link>
+      <pubDate>Fri, 23 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://dev.digcre.io/tags/license/</guid>
+      <guid>https://dev.digcre.io/tags/plex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>portainer</title>
+      <link>https://dev.digcre.io/tags/portainer/</link>
+      <pubDate>Fri, 23 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://dev.digcre.io/tags/portainer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>proxmox</title>
+      <link>https://dev.digcre.io/tags/proxmox/</link>
+      <pubDate>Wed, 05 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://dev.digcre.io/tags/proxmox/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>virtualization</title>
+      <link>https://dev.digcre.io/tags/virtualization/</link>
+      <pubDate>Wed, 05 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://dev.digcre.io/tags/virtualization/</guid>
       <description></description>
     </item>
     

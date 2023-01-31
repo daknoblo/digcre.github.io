@@ -14,30 +14,17 @@
       <pubDate>Thu, 26 Jan 2023 14:13:10 +0100</pubDate>
       
       <guid>https://dev.digcre.io/pages/projects/</guid>
-      <description></description>
+      <description>Overview of current projects Technology Description Link Proxmox &amp;amp; VMs Read Docker Enable hw transcoding for a plex docker container Read Tasmota </description>
     </item>
     
     <item>
-      <title>Impressum</title>
-      <link>https://dev.digcre.io/pages/impressum/</link>
-      <pubDate>Thu, 26 Jan 2023 13:57:30 +0100</pubDate>
-      
-      <guid>https://dev.digcre.io/pages/impressum/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>About</title>
+      <title>about</title>
       <link>https://dev.digcre.io/pages/about/</link>
       <pubDate>Thu, 26 Jan 2023 13:49:38 +0100</pubDate>
       
       <guid>https://dev.digcre.io/pages/about/</guid>
-      <description>Welcome to my blog
-Location: Europe | Germany | Dresden
-Hi this is Daniel…
-and I want to write here about my everyday tech adventures. You will find here posts about homelab environments
-homelab environemnts (proxmox, truenas) automation (homeassistant) cloud native stuff (traefik, alpine, microservices) containerization (docker and compose) IoT (tasmota, influxdb2, mqtt) home entertainment (plex) and a lot more random stuff… I hope you enjoy it !
-A bunch of code here root@pve2:/home/numark1# nvidia-smi Fri Aug 12 12:21:17 2022 +-----------------------------------------------------------------------------+ | NVIDIA-SMI 515.</description>
+      <description>Welcome to my blog ! Location: Europe | Germany | Dresden
+Hi this is Daniel…</description>
     </item>
     
   </channel>

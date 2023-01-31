@@ -7,15 +7,43 @@
   </url>
   
   <url>
-    <loc>https://dev.digcre.io/tags/get-started/</loc>
+    <loc>https://dev.digcre.io/pages/</loc>
   </url>
   
   <url>
-    <loc>https://dev.digcre.io/post/getting-started/</loc>
+    <loc>https://dev.digcre.io/pages/projects/</loc>
   </url>
   
   <url>
-    <loc>https://dev.digcre.io/tags/guide/</loc>
+    <loc>https://dev.digcre.io/pages/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dev.digcre.io/tags/container/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dev.digcre.io/tags/docker/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dev.digcre.io/tags/linuxserver.io/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dev.digcre.io/tags/nvidia/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dev.digcre.io/tags/nvidia-smi/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dev.digcre.io/tags/plex/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dev.digcre.io/tags/portainer/</loc>
   </url>
   
   <url>
@@ -23,43 +51,23 @@
   </url>
   
   <url>
+    <loc>https://dev.digcre.io/post/2023/2023-12-23-plex-on-docker-with-hw-transcoding/</loc>
+  </url>
+  
+  <url>
     <loc>https://dev.digcre.io/tags/</loc>
   </url>
   
   <url>
-    <loc>https://dev.digcre.io/tags/configuration/</loc>
+    <loc>https://dev.digcre.io/post/2022/detect-hardware-unit-hang/</loc>
   </url>
   
   <url>
-    <loc>https://dev.digcre.io/tags/customize/</loc>
+    <loc>https://dev.digcre.io/tags/proxmox/</loc>
   </url>
   
   <url>
-    <loc>https://dev.digcre.io/post/hugo-built-in-global-configuration/</loc>
-  </url>
-  
-  <url>
-    <loc>https://dev.digcre.io/tags/settings/</loc>
-  </url>
-  
-  <url>
-    <loc>https://dev.digcre.io/post/theme-custom-global-configuration/</loc>
-  </url>
-  
-  <url>
-    <loc>https://dev.digcre.io/post/page-configuration/</loc>
-  </url>
-  
-  <url>
-    <loc>https://dev.digcre.io/post/example-config-yaml/</loc>
-  </url>
-  
-  <url>
-    <loc>https://dev.digcre.io/post/additional-info/</loc>
-  </url>
-  
-  <url>
-    <loc>https://dev.digcre.io/tags/license/</loc>
+    <loc>https://dev.digcre.io/tags/virtualization/</loc>
   </url>
   
 </urlset>
