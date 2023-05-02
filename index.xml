@@ -25,7 +25,7 @@
       <link>https://dev.digcre.io/pages/impressum/</link>
       
       <guid>https://dev.digcre.io/pages/impressum/</guid>
-      <description>Impressum Contact: via Mail: info@digcre.io
+      <description>Impressum Contact via Mail: info@digcre.io
 Haftungsausschluss: Haftung für Inhalte Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.</description>
     </item>
     
@@ -34,11 +34,9 @@ Haftungsausschluss: Haftung für Inhalte Die Inhalte unserer Seiten wurden mit g
       <link>https://dev.digcre.io/pages/about/</link>
       
       <guid>https://dev.digcre.io/pages/about/</guid>
-      <description>Welcome to my blog ! Location: Europe | Germany | Dresden
-Hi this is Daniel…
-and this is my personal blog where I want to write about my daily tech adventures (and my personal cheat sheet).
-You will find storys about:
-homelabs like proxmox and truenas automation with node-red and homeassistant container with docker, moby or kubernetes IoT related topics about MQTT, influx, prometheus and tasmota home entertainment in the ecosystem of plex &amp;amp; tautulli and a lot more random stuff related to linux, windows and usefull tools Hope you enjoy if, you have any questions disqurs is enabled.</description>
+      <description>hey there, I&amp;rsquo;m Daniel and this is my personal blog to note down my daily tech adventures and proof-of-concept stunts :-)
+Hope you enjoy your visit, and if you have any questions disqurs is enabled.
+Location: Europe &amp;gt; Germany &amp;gt; Dresden</description>
     </item>
     
     <item>
