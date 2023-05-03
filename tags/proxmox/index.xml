@@ -10,10 +10,10 @@
     <lastBuildDate>Wed, 05 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.digcre.io/tags/proxmox/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Detect Proxmox hardware unit hang</title>
-      <link>https://dev.digcre.io/post/2022/detect-hardware-unit-hang/</link>
+      <link>https://dev.digcre.io/post/2022/2022-01-05-detect-hardware-unit-hang/</link>
       <pubDate>Wed, 05 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://dev.digcre.io/post/2022/detect-hardware-unit-hang/</guid>
+      <guid>https://dev.digcre.io/post/2022/2022-01-05-detect-hardware-unit-hang/</guid>
       <description>&lt;p&gt;Recently I had some issues with the reliability of my local network connections from the proxmox host and their services. This came up with application crashes on a Windows 11 VM where explorer.exe restarted every time I connected to this VM via RDP or Plex started buffering the stream in random situations. Turns out this was due the reset of the built-in network card on the proxmox host itself.&lt;/p&gt;</description>
     </item>
     
