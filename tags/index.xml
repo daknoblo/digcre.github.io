@@ -2,90 +2,126 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on digital-creations</title>
-    <link>https://dev.digcre.io/tags/</link>
+    <link>https://digcre.io/tags/</link>
     <description>Recent content in Tags on digital-creations</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;#169; 2023 Daniel Knobloch</copyright>
-    <lastBuildDate>Fri, 23 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.digcre.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://digcre.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>documentation</title>
+      <link>https://digcre.io/tags/documentation/</link>
+      <pubDate>Wed, 03 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://digcre.io/tags/documentation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ffmpeg</title>
+      <link>https://digcre.io/tags/ffmpeg/</link>
+      <pubDate>Wed, 03 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://digcre.io/tags/ffmpeg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gif</title>
+      <link>https://digcre.io/tags/gif/</link>
+      <pubDate>Wed, 03 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://digcre.io/tags/gif/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>palette</title>
+      <link>https://digcre.io/tags/palette/</link>
+      <pubDate>Wed, 03 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://digcre.io/tags/palette/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>container</title>
-      <link>https://dev.digcre.io/tags/container/</link>
+      <link>https://digcre.io/tags/container/</link>
       <pubDate>Fri, 23 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://dev.digcre.io/tags/container/</guid>
+      <guid>https://digcre.io/tags/container/</guid>
       <description></description>
     </item>
     
     <item>
       <title>docker</title>
-      <link>https://dev.digcre.io/tags/docker/</link>
+      <link>https://digcre.io/tags/docker/</link>
       <pubDate>Fri, 23 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://dev.digcre.io/tags/docker/</guid>
+      <guid>https://digcre.io/tags/docker/</guid>
       <description></description>
     </item>
     
     <item>
       <title>linuxserver.io</title>
-      <link>https://dev.digcre.io/tags/linuxserver.io/</link>
+      <link>https://digcre.io/tags/linuxserver.io/</link>
       <pubDate>Fri, 23 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://dev.digcre.io/tags/linuxserver.io/</guid>
+      <guid>https://digcre.io/tags/linuxserver.io/</guid>
       <description></description>
     </item>
     
     <item>
       <title>nvidia</title>
-      <link>https://dev.digcre.io/tags/nvidia/</link>
+      <link>https://digcre.io/tags/nvidia/</link>
       <pubDate>Fri, 23 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://dev.digcre.io/tags/nvidia/</guid>
+      <guid>https://digcre.io/tags/nvidia/</guid>
       <description></description>
     </item>
     
     <item>
       <title>nvidia-smi</title>
-      <link>https://dev.digcre.io/tags/nvidia-smi/</link>
+      <link>https://digcre.io/tags/nvidia-smi/</link>
       <pubDate>Fri, 23 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://dev.digcre.io/tags/nvidia-smi/</guid>
+      <guid>https://digcre.io/tags/nvidia-smi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>plex</title>
-      <link>https://dev.digcre.io/tags/plex/</link>
+      <link>https://digcre.io/tags/plex/</link>
       <pubDate>Fri, 23 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://dev.digcre.io/tags/plex/</guid>
+      <guid>https://digcre.io/tags/plex/</guid>
       <description></description>
     </item>
     
     <item>
       <title>portainer</title>
-      <link>https://dev.digcre.io/tags/portainer/</link>
+      <link>https://digcre.io/tags/portainer/</link>
       <pubDate>Fri, 23 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://dev.digcre.io/tags/portainer/</guid>
+      <guid>https://digcre.io/tags/portainer/</guid>
       <description></description>
     </item>
     
     <item>
       <title>proxmox</title>
-      <link>https://dev.digcre.io/tags/proxmox/</link>
+      <link>https://digcre.io/tags/proxmox/</link>
       <pubDate>Wed, 05 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://dev.digcre.io/tags/proxmox/</guid>
+      <guid>https://digcre.io/tags/proxmox/</guid>
       <description></description>
     </item>
     
     <item>
       <title>virtualization</title>
-      <link>https://dev.digcre.io/tags/virtualization/</link>
+      <link>https://digcre.io/tags/virtualization/</link>
       <pubDate>Wed, 05 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://dev.digcre.io/tags/virtualization/</guid>
+      <guid>https://digcre.io/tags/virtualization/</guid>
       <description></description>
     </item>
     

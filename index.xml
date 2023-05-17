@@ -2,38 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>digital-creations</title>
-    <link>https://dev.digcre.io/</link>
+    <link>https://digcre.io/</link>
     <description>Recent content on digital-creations</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;#169; 2023 Daniel Knobloch</copyright>
-    <lastBuildDate>Thu, 26 Jan 2023 14:13:10 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 03 May 2023 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://dev.digcre.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://digcre.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Projects</title>
-      <link>https://dev.digcre.io/pages/projects/</link>
+      <title>Create high-quality GIFs from recorded videos</title>
+      <link>https://digcre.io/post/2023/2023-05-03-create-high-quality-gifs-from-mp4-files/</link>
       
-      <guid>https://dev.digcre.io/pages/projects/</guid>
+      <guid>https://digcre.io/post/2023/2023-05-03-create-high-quality-gifs-from-mp4-files/</guid>
+      <description>Introduction Very often I need to embed videos into my documentation or wiki articles. Due the fact that plain MP4 files arent support and even make no sense in a wiki, I needed a solution to have a quick and easy solution. For this we get use of ffmpeg and convert our file from MP4 to GIF. Especially when you want to show high quality videos, you should add a palette as input to improve the output gif.</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://digcre.io/pages/projects/</link>
+      
+      <guid>https://digcre.io/pages/projects/</guid>
       <description>Overview of current projects Technology Description Link Proxmox &amp;amp; VMs Read Docker Enable hw transcoding for a plex docker container Read Tasmota </description>
     </item>
     
     <item>
       <title>Impressum</title>
-      <link>https://dev.digcre.io/pages/impressum/</link>
+      <link>https://digcre.io/pages/impressum/</link>
       
-      <guid>https://dev.digcre.io/pages/impressum/</guid>
+      <guid>https://digcre.io/pages/impressum/</guid>
       <description>Impressum Contact via Mail: info@digcre.io
 Haftungsausschluss: Haftung für Inhalte Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.</description>
     </item>
     
     <item>
       <title>about</title>
-      <link>https://dev.digcre.io/pages/about/</link>
+      <link>https://digcre.io/pages/about/</link>
       
-      <guid>https://dev.digcre.io/pages/about/</guid>
+      <guid>https://digcre.io/pages/about/</guid>
       <description>Hey there, I&amp;rsquo;m Daniel and this is my personal blog to note down my daily tech adventures and proof-of-concept stunts :-)
 Hope you enjoy your visit, and if you have any questions disqurs is enabled.
 Location: Europe &amp;gt; Germany &amp;gt; Dresden</description>
@@ -41,17 +49,17 @@ Location: Europe &amp;gt; Germany &amp;gt; Dresden</description>
     
     <item>
       <title>Running Plex in Docker with Hardware Transcoding</title>
-      <link>https://dev.digcre.io/post/2023/2023-12-23-plex-on-docker-with-hw-transcoding/</link>
+      <link>https://digcre.io/post/2023/2023-12-23-plex-on-docker-with-hw-transcoding/</link>
       
-      <guid>https://dev.digcre.io/post/2023/2023-12-23-plex-on-docker-with-hw-transcoding/</guid>
+      <guid>https://digcre.io/post/2023/2023-12-23-plex-on-docker-with-hw-transcoding/</guid>
       <description>&lt;p&gt;This Post describes how to set up Plex in a Docker Container while using the hw transcoding functionality from my Quadro GPU and the nVidia Toolkit.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Detect Proxmox hardware unit hang</title>
-      <link>https://dev.digcre.io/post/2022/2022-01-05-detect-hardware-unit-hang/</link>
+      <link>https://digcre.io/post/2022/2022-01-05-detect-hardware-unit-hang/</link>
       
-      <guid>https://dev.digcre.io/post/2022/2022-01-05-detect-hardware-unit-hang/</guid>
+      <guid>https://digcre.io/post/2022/2022-01-05-detect-hardware-unit-hang/</guid>
       <description>&lt;p&gt;Recently I had some issues with the reliability of my local network connections from the proxmox host and their services. This came up with application crashes on a Windows 11 VM where explorer.exe restarted every time I connected to this VM via RDP or Plex started buffering the stream in random situations. Turns out this was due the reset of the built-in network card on the proxmox host itself.&lt;/p&gt;</description>
     </item>
     

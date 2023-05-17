@@ -2,27 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on digital-creations</title>
-    <link>https://dev.digcre.io/post/</link>
+    <link>https://digcre.io/post/</link>
     <description>Recent content in Posts on digital-creations</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;#169; 2023 Daniel Knobloch</copyright>
-    <lastBuildDate>Fri, 23 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.digcre.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://digcre.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create high-quality GIFs from recorded videos</title>
+      <link>https://digcre.io/post/2023/2023-05-03-create-high-quality-gifs-from-mp4-files/</link>
+      <pubDate>Wed, 03 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://digcre.io/post/2023/2023-05-03-create-high-quality-gifs-from-mp4-files/</guid>
+      <description>Introduction Very often I need to embed videos into my documentation or wiki articles. Due the fact that plain MP4 files arent support and even make no sense in a wiki, I needed a solution to have a quick and easy solution. For this we get use of ffmpeg and convert our file from MP4 to GIF. Especially when you want to show high quality videos, you should add a palette as input to improve the output gif.</description>
+    </item>
+    
     <item>
       <title>Running Plex in Docker with Hardware Transcoding</title>
-      <link>https://dev.digcre.io/post/2023/2023-12-23-plex-on-docker-with-hw-transcoding/</link>
+      <link>https://digcre.io/post/2023/2023-12-23-plex-on-docker-with-hw-transcoding/</link>
       <pubDate>Fri, 23 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://dev.digcre.io/post/2023/2023-12-23-plex-on-docker-with-hw-transcoding/</guid>
+      <guid>https://digcre.io/post/2023/2023-12-23-plex-on-docker-with-hw-transcoding/</guid>
       <description>&lt;p&gt;This Post describes how to set up Plex in a Docker Container while using the hw transcoding functionality from my Quadro GPU and the nVidia Toolkit.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Detect Proxmox hardware unit hang</title>
-      <link>https://dev.digcre.io/post/2022/2022-01-05-detect-hardware-unit-hang/</link>
+      <link>https://digcre.io/post/2022/2022-01-05-detect-hardware-unit-hang/</link>
       <pubDate>Wed, 05 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://dev.digcre.io/post/2022/2022-01-05-detect-hardware-unit-hang/</guid>
+      <guid>https://digcre.io/post/2022/2022-01-05-detect-hardware-unit-hang/</guid>
       <description>&lt;p&gt;Recently I had some issues with the reliability of my local network connections from the proxmox host and their services. This came up with application crashes on a Windows 11 VM where explorer.exe restarted every time I connected to this VM via RDP or Plex started buffering the stream in random situations. Turns out this was due the reset of the built-in network card on the proxmox host itself.&lt;/p&gt;</description>
     </item>
     

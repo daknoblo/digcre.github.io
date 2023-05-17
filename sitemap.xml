@@ -3,75 +3,95 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://dev.digcre.io/</loc>
+    <loc>https://digcre.io/post/2023/2023-05-03-create-high-quality-gifs-from-mp4-files/</loc>
   </url>
   
   <url>
-    <loc>https://dev.digcre.io/pages/</loc>
+    <loc>https://digcre.io/</loc>
   </url>
   
   <url>
-    <loc>https://dev.digcre.io/pages/projects/</loc>
+    <loc>https://digcre.io/tags/documentation/</loc>
   </url>
   
   <url>
-    <loc>https://dev.digcre.io/pages/impressum/</loc>
+    <loc>https://digcre.io/tags/ffmpeg/</loc>
   </url>
   
   <url>
-    <loc>https://dev.digcre.io/pages/about/</loc>
+    <loc>https://digcre.io/tags/gif/</loc>
   </url>
   
   <url>
-    <loc>https://dev.digcre.io/tags/container/</loc>
+    <loc>https://digcre.io/tags/palette/</loc>
   </url>
   
   <url>
-    <loc>https://dev.digcre.io/tags/docker/</loc>
+    <loc>https://digcre.io/post/</loc>
   </url>
   
   <url>
-    <loc>https://dev.digcre.io/tags/linuxserver.io/</loc>
+    <loc>https://digcre.io/tags/</loc>
   </url>
   
   <url>
-    <loc>https://dev.digcre.io/tags/nvidia/</loc>
+    <loc>https://digcre.io/pages/</loc>
   </url>
   
   <url>
-    <loc>https://dev.digcre.io/tags/nvidia-smi/</loc>
+    <loc>https://digcre.io/pages/projects/</loc>
   </url>
   
   <url>
-    <loc>https://dev.digcre.io/tags/plex/</loc>
+    <loc>https://digcre.io/pages/impressum/</loc>
   </url>
   
   <url>
-    <loc>https://dev.digcre.io/tags/portainer/</loc>
+    <loc>https://digcre.io/pages/about/</loc>
   </url>
   
   <url>
-    <loc>https://dev.digcre.io/post/</loc>
+    <loc>https://digcre.io/tags/container/</loc>
   </url>
   
   <url>
-    <loc>https://dev.digcre.io/post/2023/2023-12-23-plex-on-docker-with-hw-transcoding/</loc>
+    <loc>https://digcre.io/tags/docker/</loc>
   </url>
   
   <url>
-    <loc>https://dev.digcre.io/tags/</loc>
+    <loc>https://digcre.io/tags/linuxserver.io/</loc>
   </url>
   
   <url>
-    <loc>https://dev.digcre.io/post/2022/2022-01-05-detect-hardware-unit-hang/</loc>
+    <loc>https://digcre.io/tags/nvidia/</loc>
   </url>
   
   <url>
-    <loc>https://dev.digcre.io/tags/proxmox/</loc>
+    <loc>https://digcre.io/tags/nvidia-smi/</loc>
   </url>
   
   <url>
-    <loc>https://dev.digcre.io/tags/virtualization/</loc>
+    <loc>https://digcre.io/tags/plex/</loc>
+  </url>
+  
+  <url>
+    <loc>https://digcre.io/tags/portainer/</loc>
+  </url>
+  
+  <url>
+    <loc>https://digcre.io/post/2023/2023-12-23-plex-on-docker-with-hw-transcoding/</loc>
+  </url>
+  
+  <url>
+    <loc>https://digcre.io/post/2022/2022-01-05-detect-hardware-unit-hang/</loc>
+  </url>
+  
+  <url>
+    <loc>https://digcre.io/tags/proxmox/</loc>
+  </url>
+  
+  <url>
+    <loc>https://digcre.io/tags/virtualization/</loc>
   </url>
   
 </urlset>
