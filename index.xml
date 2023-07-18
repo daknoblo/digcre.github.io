@@ -7,10 +7,36 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;#169; 2023 Daniel Knobloch</copyright>
-    <lastBuildDate>Wed, 03 May 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Jul 2023 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://digcre.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Redeploy your workstation with ease</title>
+      <link>https://digcre.io/post/2023/2023-07-18-redeploy-your-machine-with-ease/</link>
+      
+      <guid>https://digcre.io/post/2023/2023-07-18-redeploy-your-machine-with-ease/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Use traefik certificate enrolment with IONOS certificates</title>
+      <link>https://digcre.io/post/2023/2023-07-10-traefik-reverse-proxy-with-ionos-certificates/</link>
+      
+      <guid>https://digcre.io/post/2023/2023-07-10-traefik-reverse-proxy-with-ionos-certificates/</guid>
+      <description>Introduction I use traefik reverse proxy as the entrypoint for all my docker container services to have proper SSL termination. To enrol my certificates I use the development API for IONOS to solve the dns-challenge and hand it over to the resolver to request a new certificate when I create a new service.
+What is covered or what is the TL;DR here ? We use a Kubernetes Cluster to deploy KAN into it and use the ready to use AI Skills to connect our Videostream from the camera to detect vehicles.</description>
+    </item>
+    
+    <item>
+      <title>Using KubeAI Application Nucleus for edge (KAN)</title>
+      <link>https://digcre.io/post/2023/2023-06-25-using-kubeai-nucleus-for-edge/</link>
+      
+      <guid>https://digcre.io/post/2023/2023-06-25-using-kubeai-nucleus-for-edge/</guid>
+      <description>Using KubeAI Application Nucleus for edge Introduction I have a real world scenario requirement to implement an environmental sensor to count vehicles driving infront of my balcony. To do this my inital idea was to set up a camera and attach it to a Coral/TPU powered Rasperry Pi to catch the stream from the camera and count vehicles.
+As we all know, RPis and also TPUs arent available and anything then a good deal at the moment.</description>
+    </item>
     
     <item>
       <title>Create high-quality GIFs from recorded videos</title>
@@ -44,14 +70,15 @@ Haftungsausschluss: Haftung für Inhalte Die Inhalte unserer Seiten wurden mit g
       <guid>https://digcre.io/pages/about/</guid>
       <description>Hey there, I&amp;rsquo;m Daniel and this is my personal blog to note down my daily tech adventures and proof-of-concept stunts :-)
 Hope you enjoy your visit, and if you have any questions disqurs is enabled.
-Location: Europe &amp;gt; Germany &amp;gt; Dresden</description>
+Located in Europe &amp;gt; Germany &amp;gt; Dresden
+Florence, Italy Dubai, UAE </description>
     </item>
     
     <item>
       <title>Running Plex in Docker with Hardware Transcoding</title>
-      <link>https://digcre.io/post/2023/2023-12-23-plex-on-docker-with-hw-transcoding/</link>
+      <link>https://digcre.io/post/2022/2022-12-23-plex-on-docker-with-hw-transcoding/</link>
       
-      <guid>https://digcre.io/post/2023/2023-12-23-plex-on-docker-with-hw-transcoding/</guid>
+      <guid>https://digcre.io/post/2022/2022-12-23-plex-on-docker-with-hw-transcoding/</guid>
       <description>&lt;p&gt;This Post describes how to set up Plex in a Docker Container while using the hw transcoding functionality from my Quadro GPU and the nVidia Toolkit.&lt;/p&gt;</description>
     </item>
     

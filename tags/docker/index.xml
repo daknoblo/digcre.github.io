@@ -7,13 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;#169; 2023 Daniel Knobloch</copyright>
-    <lastBuildDate>Fri, 23 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://digcre.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 18 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://digcre.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Use traefik certificate enrolment with IONOS certificates</title>
+      <link>https://digcre.io/post/2023/2023-07-10-traefik-reverse-proxy-with-ionos-certificates/</link>
+      <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://digcre.io/post/2023/2023-07-10-traefik-reverse-proxy-with-ionos-certificates/</guid>
+      <description>Introduction I use traefik reverse proxy as the entrypoint for all my docker container services to have proper SSL termination. To enrol my certificates I use the development API for IONOS to solve the dns-challenge and hand it over to the resolver to request a new certificate when I create a new service.
+What is covered or what is the TL;DR here ? We use a Kubernetes Cluster to deploy KAN into it and use the ready to use AI Skills to connect our Videostream from the camera to detect vehicles.</description>
+    </item>
+    
     <item>
       <title>Running Plex in Docker with Hardware Transcoding</title>
-      <link>https://digcre.io/post/2023/2023-12-23-plex-on-docker-with-hw-transcoding/</link>
+      <link>https://digcre.io/post/2022/2022-12-23-plex-on-docker-with-hw-transcoding/</link>
       <pubDate>Fri, 23 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://digcre.io/post/2023/2023-12-23-plex-on-docker-with-hw-transcoding/</guid>
+      <guid>https://digcre.io/post/2022/2022-12-23-plex-on-docker-with-hw-transcoding/</guid>
       <description>&lt;p&gt;This Post describes how to set up Plex in a Docker Container while using the hw transcoding functionality from my Quadro GPU and the nVidia Toolkit.&lt;/p&gt;</description>
     </item>
     

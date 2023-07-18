@@ -7,7 +7,124 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;#169; 2023 Daniel Knobloch</copyright>
-    <lastBuildDate>Wed, 03 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://digcre.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 18 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://digcre.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>dns-challenge</title>
+      <link>https://digcre.io/tags/dns-challenge/</link>
+      <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://digcre.io/tags/dns-challenge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker</title>
+      <link>https://digcre.io/tags/docker/</link>
+      <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://digcre.io/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker-compose</title>
+      <link>https://digcre.io/tags/docker-compose/</link>
+      <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://digcre.io/tags/docker-compose/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IONOS</title>
+      <link>https://digcre.io/tags/ionos/</link>
+      <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://digcre.io/tags/ionos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>letsencrypt</title>
+      <link>https://digcre.io/tags/letsencrypt/</link>
+      <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://digcre.io/tags/letsencrypt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Powershell</title>
+      <link>https://digcre.io/tags/powershell/</link>
+      <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://digcre.io/tags/powershell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>proxy</title>
+      <link>https://digcre.io/tags/proxy/</link>
+      <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://digcre.io/tags/proxy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>traefik</title>
+      <link>https://digcre.io/tags/traefik/</link>
+      <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://digcre.io/tags/traefik/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>winget</title>
+      <link>https://digcre.io/tags/winget/</link>
+      <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://digcre.io/tags/winget/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AI</title>
+      <link>https://digcre.io/tags/ai/</link>
+      <pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://digcre.io/tags/ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computer Vision</title>
+      <link>https://digcre.io/tags/computer-vision/</link>
+      <pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://digcre.io/tags/computer-vision/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>KAN</title>
+      <link>https://digcre.io/tags/kan/</link>
+      <pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://digcre.io/tags/kan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kubernetes</title>
+      <link>https://digcre.io/tags/kubernetes/</link>
+      <pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://digcre.io/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>documentation</title>
       <link>https://digcre.io/tags/documentation/</link>
@@ -45,20 +162,20 @@
     </item>
     
     <item>
+      <title>selfie</title>
+      <link>https://digcre.io/tags/selfie/</link>
+      <pubDate>Sun, 01 Jan 2023 13:49:38 +0100</pubDate>
+      
+      <guid>https://digcre.io/tags/selfie/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>container</title>
       <link>https://digcre.io/tags/container/</link>
       <pubDate>Fri, 23 Dec 2022 00:00:00 +0000</pubDate>
       
       <guid>https://digcre.io/tags/container/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>docker</title>
-      <link>https://digcre.io/tags/docker/</link>
-      <pubDate>Fri, 23 Dec 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://digcre.io/tags/docker/</guid>
       <description></description>
     </item>
     

@@ -3,11 +3,83 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://digcre.io/post/2023/2023-05-03-create-high-quality-gifs-from-mp4-files/</loc>
+    <loc>https://digcre.io/</loc>
   </url>
   
   <url>
-    <loc>https://digcre.io/</loc>
+    <loc>https://digcre.io/tags/dns-challenge/</loc>
+  </url>
+  
+  <url>
+    <loc>https://digcre.io/tags/docker/</loc>
+  </url>
+  
+  <url>
+    <loc>https://digcre.io/tags/docker-compose/</loc>
+  </url>
+  
+  <url>
+    <loc>https://digcre.io/tags/ionos/</loc>
+  </url>
+  
+  <url>
+    <loc>https://digcre.io/tags/letsencrypt/</loc>
+  </url>
+  
+  <url>
+    <loc>https://digcre.io/post/</loc>
+  </url>
+  
+  <url>
+    <loc>https://digcre.io/tags/powershell/</loc>
+  </url>
+  
+  <url>
+    <loc>https://digcre.io/tags/proxy/</loc>
+  </url>
+  
+  <url>
+    <loc>https://digcre.io/post/2023/2023-07-18-redeploy-your-machine-with-ease/</loc>
+  </url>
+  
+  <url>
+    <loc>https://digcre.io/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://digcre.io/tags/traefik/</loc>
+  </url>
+  
+  <url>
+    <loc>https://digcre.io/post/2023/2023-07-10-traefik-reverse-proxy-with-ionos-certificates/</loc>
+  </url>
+  
+  <url>
+    <loc>https://digcre.io/tags/winget/</loc>
+  </url>
+  
+  <url>
+    <loc>https://digcre.io/tags/ai/</loc>
+  </url>
+  
+  <url>
+    <loc>https://digcre.io/tags/computer-vision/</loc>
+  </url>
+  
+  <url>
+    <loc>https://digcre.io/tags/kan/</loc>
+  </url>
+  
+  <url>
+    <loc>https://digcre.io/tags/kubernetes/</loc>
+  </url>
+  
+  <url>
+    <loc>https://digcre.io/post/2023/2023-06-25-using-kubeai-nucleus-for-edge/</loc>
+  </url>
+  
+  <url>
+    <loc>https://digcre.io/post/2023/2023-05-03-create-high-quality-gifs-from-mp4-files/</loc>
   </url>
   
   <url>
@@ -27,14 +99,6 @@
   </url>
   
   <url>
-    <loc>https://digcre.io/post/</loc>
-  </url>
-  
-  <url>
-    <loc>https://digcre.io/tags/</loc>
-  </url>
-  
-  <url>
     <loc>https://digcre.io/pages/</loc>
   </url>
   
@@ -51,11 +115,11 @@
   </url>
   
   <url>
-    <loc>https://digcre.io/tags/container/</loc>
+    <loc>https://digcre.io/tags/selfie/</loc>
   </url>
   
   <url>
-    <loc>https://digcre.io/tags/docker/</loc>
+    <loc>https://digcre.io/tags/container/</loc>
   </url>
   
   <url>
@@ -79,7 +143,7 @@
   </url>
   
   <url>
-    <loc>https://digcre.io/post/2023/2023-12-23-plex-on-docker-with-hw-transcoding/</loc>
+    <loc>https://digcre.io/post/2022/2022-12-23-plex-on-docker-with-hw-transcoding/</loc>
   </url>
   
   <url>
