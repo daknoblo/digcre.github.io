@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>docker-compose on digital-creations</title>
+    <link>https://digcre.io/tags/docker-compose/</link>
+    <description>Recent content in docker-compose on digital-creations</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;#169; 2023 Daniel Knobloch</copyright>
+    <lastBuildDate>Tue, 18 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://digcre.io/tags/docker-compose/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Use traefik certificate enrolment with IONOS certificates</title>
+      <link>https://digcre.io/post/2023/2023-07-10-traefik-reverse-proxy-with-ionos-certificates/</link>
+      <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://digcre.io/post/2023/2023-07-10-traefik-reverse-proxy-with-ionos-certificates/</guid>
+      <description>Introduction I use traefik reverse proxy as the entrypoint for all my docker container services to have proper SSL termination. To enrol my certificates I use the development API for IONOS to solve the dns-challenge and hand it over to the resolver to request a new certificate when I create a new service.
+What is covered or what is the TL;DR here ? We use a Kubernetes Cluster to deploy KAN into it and use the ready to use AI Skills to connect our Videostream from the camera to detect vehicles.</description>
+    </item>
+    
+  </channel>
+</rss>

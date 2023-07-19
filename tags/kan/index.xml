@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>KAN on digital-creations</title>
+    <link>https://digcre.io/tags/kan/</link>
+    <description>Recent content in KAN on digital-creations</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;#169; 2023 Daniel Knobloch</copyright>
+    <lastBuildDate>Sun, 25 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://digcre.io/tags/kan/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using KubeAI Application Nucleus for edge (KAN)</title>
+      <link>https://digcre.io/post/2023/2023-06-25-using-kubeai-nucleus-for-edge/</link>
+      <pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://digcre.io/post/2023/2023-06-25-using-kubeai-nucleus-for-edge/</guid>
+      <description>Using KubeAI Application Nucleus for edge Introduction I have a real world scenario requirement to implement an environmental sensor to count vehicles driving infront of my balcony. To do this my inital idea was to set up a camera and attach it to a Coral/TPU powered Rasperry Pi to catch the stream from the camera and count vehicles.
+As we all know, RPis and also TPUs arent available and anything then a good deal at the moment.</description>
+    </item>
+    
+  </channel>
+</rss>

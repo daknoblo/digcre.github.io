@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Using KubeAI Application Nucleus for edge (KAN) | digital-creations</title>
+  
+  
+  
+    
+      
+
+
+
+
+
+
+
+<meta name="title" content="Using KubeAI Application Nucleus for edge (KAN) | digital-creations" />
+<meta name="description" content="Proof of concept for object detection"> 
+
+
+<link rel="canonical" href="https://digcre.io/post/2023/2023-06-25-using-kubeai-nucleus-for-edge/" />
+
+
+  
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:description" content="Proof of concept for object detection" /> 
+  <meta name="twitter:title" content="Using KubeAI Application Nucleus for edge (KAN) | digital-creations" />
+  <meta name="twitter:url" content="https://digcre.io/post/2023/2023-06-25-using-kubeai-nucleus-for-edge/" />
+  <meta name="twitter:site" content="@Softorage" /> 
+  <meta name="twitter:creator" content="@Softorage" /> 
+  <meta name="twitter:image" content="" /> 
+
+
+
+
+
+<meta property="article:published_time" content="2023-06-25 00:00:00 &#43;0000 UTC" />
+
+
+  
+  
+  <script type="application/ld+json">
+      { 
+          "@context": "http://schema.org", 
+          "@type": "BlogPosting",
+          "headline": "Using KubeAI Application Nucleus for edge (KAN)",
+          
+          "url": "https://digcre.io",
+          
+          "datePublished": "2023-06-25T00:00:00Z",
+          
+          
+          "dateModified": "2023-06-25T00:00:00Z",
+          
+          "description": Proof of concept for object detection,
+          
+          "logo": "/assets/favicon/android-chrome-512x512.png",
+          
+          
+          "author": {
+              "@type": "Person",
+              "name": "Daniel"
+          },
+          
+          "publisher": {
+            "@type": "Organization",
+            "name": "Daniel",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "/assets/favicon/android-chrome-512x512.png"
+            }
+          },
+          
+          "sameAs" : [
+            
+            
+              "info@digcre.io",  
+            
+              "https://github.com/digcre",  
+            
+              "https://www.instagram.com/num4rk_/",  
+            
+              "https://www.linkedin.com/in/daniel-knobloch-055a38185/"
+            ]
+          
+        }
+      </script>
+  
+
+
+    
+    <meta name="generator" content="Hugo 0.115.3">
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/assets/css/main.min.a932256550332a12c0d01a20b8288b11798cdd72b70c490c9e225dfaa0efdd58.css" integrity="sha256-qTIlZVAzKhLA0BoguCiLEXmM3XK3DEkMniJd&#43;qDv3Vg=" crossorigin="anonymous">
+  
+  <link rel="dns-prefetch" href="//fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  
+  <link rel=apple-touch-icon sizes=180x180 href=https://digcre.io/assets/favicon/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=https://digcre.io/assets/favicon/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=https://digcre.io/assets/favicon/favicon-16x16.png><link rel=manifest href=https://digcre.io/assets/favicon/site.webmanifest><link rel=mask-icon href=https://digcre.io/assets/favicon/safari-pinned-tab.svg color=#7817c4><link rel=icon href=https://digcre.io/assets/favicon/favicon.ico type=image/x-icon><link rel="shortcut icon" href=https://digcre.io/assets/favicon/favicon.ico type=image/x-icon><meta name=apple-mobile-web-app-title content="Vibrant Shadows Theme"><meta name=application-name content="Vibrant Shadows Theme"><meta name=msapplication-TileColor content="#ffffff"><meta name=theme-color content="#ffffff">
+  
+  
+  
+  <meta name="theme-color" content="#fff6f8">
+  
+  <meta name="msapplication-navbutton-color" content="#fff6f8">
+  
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  
+  
+</head>
+<body><header>
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top flex-column">
+    <div class="container-fluid">
+      
+      <a class="navbar-brand rounded px-3" href="https://digcre.io"><span class="text-nav"><span class="brand"><img src="/assets/favicon/favicon-32x32.png" alt="digcre.io logo" height="32"></img>&nbsp;&nbsp;&nbsp;digcre.io</span></span></a>
+      
+      
+        <a class="navbar-toggler border-0 bg-nav p-2" role="button" href="#" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="text-clr2">&#9776;</span>
+        </a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-md-auto">
+             
+            
+              
+                <li class="nav-item mx-1 my-2">
+                  <a class="btn bg-nav text-clr1" href="/">blog</a>
+                </li>
+              
+            
+              
+                <li class="nav-item mx-1 my-2">
+                  <a class="btn bg-nav text-clr1" href="/pages/projects/">projects</a>
+                </li>
+              
+            
+              
+                <li class="nav-item mx-1 my-2">
+                  <a class="btn bg-nav text-clr1" href="/pages/about/">about</a>
+                </li>
+              
+            
+              
+                <li class="nav-item mx-1 my-2">
+                  <a class="btn bg-nav text-clr1" href="/pages/impressum/">impressum</a>
+                </li>
+              
+            
+          </ul>
+          
+            
+          
+        </div>
+      
+    </div>
+    
+  </nav>
+</header>
+<div id="content">
+<div class="container-fluid  text-light text-center bg-clr1 pb-3 pt-4 shadow position-relative">
+  <div style="height:3.5rem;"></div>
+  <h1>Using KubeAI Application Nucleus for edge (KAN)</h1>
+  <p class="description">Proof of concept for object detection</p>
+</div>
+<div class="container-fluid bg-nav p-4">
+  <div class="row">
+    <div class="col-md-3">
+      
+      <div class="bg-mat p-4 rounded" style="overflow-x: auto;">
+        <div class="h4 mb-3">
+        Contents
+        </div>
+        <nav id="TableOfContents">
+  <ol>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#what-is-covered-or-what-is-the-tldr-here-">What is covered or what is the TL;DR here ?</a></li>
+    <li><a href="#what-do-we-want-to-do-">What do we want to do ?</a></li>
+  </ol>
+</nav>
+      </div>
+      
+    </div>
+    <div class="col-md-9">
+        
+      
+      <div class="py-1">
+        <div class="row">
+          <div class="col-md-7 small text-muted post-meta my-auto"></span>
+            
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+              
+            By Daniel &#183; 352 words &#183; 2 min read &#183; <span class=''>Last updated: June 25, 2023</div>
+          
+          
+          
+          <div class="col-md-auto ml-3 my-auto">
+            <div class="row">
+              <div class="col-auto p-0 my-auto">
+              Share on:&nbsp;&nbsp;
+              </div>
+              <div class="col p-0">
+                <span class="lead">
+                  
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fdigcre.io%2fpost%2f2023%2f2023-06-25-using-kubeai-nucleus-for-edge%2f&quote=Using%20KubeAI%20Application%20Nucleus%20for%20edge%20%28KAN%29" rel="noreferrer nofollow" target="_blank" title="Share on Facebook" aria-label="Share on Facebook"><span class="fab fa-facebook"></span></a>&nbsp;&nbsp;
+                  
+                  
+                    <a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fdigcre.io%2fpost%2f2023%2f2023-06-25-using-kubeai-nucleus-for-edge%2f&text=Using%20KubeAI%20Application%20Nucleus%20for%20edge%20%28KAN%29:%0Ahttps%3a%2f%2fdigcre.io%2fpost%2f2023%2f2023-06-25-using-kubeai-nucleus-for-edge%2f" rel="noreferrer nofollow" target="_blank" title="Share on Twitter" aria-label="Share on Twitter"><span class="fab fa-twitter"></span></a>&nbsp;&nbsp;
+                  
+                  
+                    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fdigcre.io%2fpost%2f2023%2f2023-06-25-using-kubeai-nucleus-for-edge%2f&title=Using%20KubeAI%20Application%20Nucleus%20for%20edge%20%28KAN%29&summary=Proof%20of%20concept%20for%20object%20detection&source=digital-creations" rel="noreferrer nofollow" target="_blank" title="Share on LinkedIn" aria-label="Share on LinkedIn"><span class="fab fa-linkedin"></span></a>&nbsp;&nbsp;
+                  
+                  
+                    <a href="https://t.me/share/url?url=https%3a%2f%2fdigcre.io%2fpost%2f2023%2f2023-06-25-using-kubeai-nucleus-for-edge%2f&text=Using%20KubeAI%20Application%20Nucleus%20for%20edge%20%28KAN%29" rel="noreferrer nofollow" target="_blank" title="Share on Telegram" aria-label="Share on Telegram"><span class="fab fa-telegram"></span></a>&nbsp;&nbsp;
+                  
+                  
+                    <a href="whatsapp://send?text=https%3a%2f%2fdigcre.io%2fpost%2f2023%2f2023-06-25-using-kubeai-nucleus-for-edge%2f%0A%0AUsing%20KubeAI%20Application%20Nucleus%20for%20edge%20%28KAN%29" data-text="Using KubeAI Application Nucleus for edge (KAN)" data-href="https://digcre.io/post/2023/2023-06-25-using-kubeai-nucleus-for-edge/" rel="noreferrer nofollow" target="_blank" title="Share on Whatsapp" aria-label="Share on Whatsapp"><span class="fab fa-whatsapp"></span></a>&nbsp;&nbsp;
+                  
+                  
+                    <a href="https://reddit.com/submit?url=https%3a%2f%2fdigcre.io%2fpost%2f2023%2f2023-06-25-using-kubeai-nucleus-for-edge%2f&title=Using%20KubeAI%20Application%20Nucleus%20for%20edge%20%28KAN%29" rel="noreferrer nofollow" target="_blank" title="Share on Reddit" aria-label="Share on Reddit"><span class="fab fa-reddit"></span></a>&nbsp;&nbsp;
+                  
+                  
+                    <a href="mailto:?subject=Using%20KubeAI%20Application%20Nucleus%20for%20edge%20%28KAN%29&body=Proof%20of%20concept%20for%20object%20detection%0A%0Ahttps%3a%2f%2fdigcre.io%2fpost%2f2023%2f2023-06-25-using-kubeai-nucleus-for-edge%2f" target="_blank" title="Share via email" aria-label="Share via email"><span class="fas fa-envelope"></span></a>
+                  
+                </span>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        
+        
+        
+      </div>
+      
+      
+      <div class="py-3 my-2">
+      <h1 id="using-kubeai-application-nucleus-for-edge">Using KubeAI Application Nucleus for edge</h1>
+<h2 id="introduction">Introduction</h2>
+<p>I have a real world scenario requirement to implement an environmental sensor to count vehicles driving infront of my balcony. To do this my inital idea was to set up a camera and attach it to a Coral/TPU powered Rasperry Pi to catch the stream from the camera and count vehicles.</p>
+<p>As we all know, RPis and also TPUs arent available and anything then a good deal at the moment. Good timing <a href="https://github.com/Azure/KAN">KAN</a> jumped in and offers ready to use AI Skills on Kubernetes running on edge.</p>
+<h2 id="what-is-covered-or-what-is-the-tldr-here-">What is covered or what is the TL;DR here ?</h2>
+<p>We use a Kubernetes Cluster to deploy KAN into it and use the ready to use AI Skills to connect our Videostream from the camera to detect vehicles.</p>
+<p>Parts involed:</p>
+<ul>
+<li>Reolink RC-510 Outdoor webcam with PoE</li>
+<li>Kubernetes Cluster deployed in Azure</li>
+</ul>
+<h2 id="what-do-we-want-to-do-">What do we want to do ?</h2>
+<p>Stream our Camera feed via RTSP to a remote Kuberentes Cluster or Kubernetes system running on the edge for local processing. The long term goal is to capture the stream, seperate lanes and directions and count the amount of objects to expose this via API as environmental sensor.</p>
+<p>The KAN Portal can be easily deployed via Helm chart and some lines of code into a running Kubernetes Cluster. After that you just need to add your source and processing system and thats it.</p>
+<figure><img src="/uploads/2023/2023-06-25-using-kubeai-nucleus-for-edge/kanportal.gif"
+         alt="alt text" width="100%"/>
+</figure>
+
+<p>So this is our first output after attaching the RTSP stream to our KAN deployment.</p>
+<figure><img src="/uploads/2023/2023-06-25-using-kubeai-nucleus-for-edge/vid1.gif"
+         alt="alt text" width="100%"/>
+</figure>
+
+<p>I deployed KAN via <a href="https://github.com/Azure/KAN/blob/main/docs/tutorial/setup-guide.md">the following documentation</a></p>
+<figure><img src="/uploads/2023/2023-06-25-using-kubeai-nucleus-for-edge/vid2.gif"
+         alt="alt text" width="100%"/>
+</figure>
+
+<p>As you can see the probability needs to be tuned as there are currently some issues with detection of static objects. But when you keep in mind that this doenst need a TPU or GPU support and is completely low-code, I&rsquo;m very surprised about the outcome.</p>
+<figure><img src="/uploads/2023/2023-06-25-using-kubeai-nucleus-for-edge/vid3.gif"
+         alt="alt text" width="100%"/>
+</figure>
+
+<p>Even tho the results pretty good, I dont want to handle a fully blown Kuberentes Cluster. If there is ongoing progress on the AI Skills built into KAN, we can test this again but for the moment I will probably switch to another platform.</p>
+<p>{{ template &ldquo;_internal/disqus.html&rdquo; . }}</p>
+
+      </div>
+      
+      
+        <div class="pt-4 mt-2 border-top">
+          <div class="row">
+            <div class="col-md-7 small text-muted post-meta my-1">
+              
+              
+                
+              
+                
+              
+                
+              
+                
+              </div>
+            
+            
+            
+          </div>
+        
+          
+            <div class="mt-3"><a href="/tags/kubernetes/"><span class="badge badge-pill bg-clr2 text-nav mr-2 py-2">#KUBERNETES</span></a><a href="/tags/kan/"><span class="badge badge-pill bg-clr2 text-nav mr-2 py-2">#KAN</span></a><a href="/tags/computer-vision/"><span class="badge badge-pill bg-clr2 text-nav mr-2 py-2">#COMPUTER VISION</span></a><a href="/tags/ai/"><span class="badge badge-pill bg-clr2 text-nav mr-2 py-2">#AI</span></a></div>
+          
+        
+        </div>
+      
+    </div>
+  </div>
+  
+  
+    <div class="my-5">
+      <div id="disqus_thread"></div>
+<script type="application/javascript">
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "numark1" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      
+    </div>
+  
+  
+</div>
+
+    </div><footer class="text-center p-2 text-muted footer">
+  
+    
+    <div class="py-2 lead">
+      
+        
+      
+        
+          <a class="ml-2" href="https://github.com/digcre"><span class="fab fa-github" aria-label="Join us on Github"></span></a>
+        
+      
+        
+          <a class="ml-2" href="https://www.instagram.com/num4rk_/"><span class="fab fa-instagram" aria-label="Join us on Instagram"></span></a>
+        
+      
+        
+          <a class="ml-2" href="https://www.linkedin.com/in/daniel-knobloch-055a38185/"><span class="fab fa-linkedin" aria-label="Join us on Linkedin"></span></a>
+        
+      
+    </div>
+    
+  
+
+  <div class="py-2 lead">
+      Stay creative and share
+    </div>
+
+  <div class="py-2 copyright">
+    <small>Copyright &#169; 2023 Daniel <b>&#183;</b> Content license: CC-BY-SA-3.0</small>
+  </div>
+</footer>
+
+    
+    
+    
+    <script src="/assets/js/main.min.cdb0654e851e0b9a84c8cde40016795a22a7b0e3ceed8caf09af029c9598a2db.js" integrity="sha256-zbBlToUeC5qEyM3kABZ5WiKnsOPO7YyvCa8CnJWYots=" crossorigin="anonymous"></script>
+    <script src="/assets/js/custom.min.21d1b65b48adbed41de7ac42ee68e7f9e464985356770f7e0b877b89044eb469.js" integrity="sha256-IdG2W0itvtQd56xC7mjn&#43;eRkmFNWdw9&#43;C4d7iQROtGk=" crossorigin="anonymous"></script>
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Lato&display=swap" rel="stylesheet">
+    
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+  </body>
+</html>
