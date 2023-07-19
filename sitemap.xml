@@ -31,15 +31,7 @@
   </url>
   
   <url>
-    <loc>https://digcre.io/tags/powershell/</loc>
-  </url>
-  
-  <url>
     <loc>https://digcre.io/tags/proxy/</loc>
-  </url>
-  
-  <url>
-    <loc>https://digcre.io/post/2023/2023-07-18-redeploy-your-machine-with-ease/</loc>
   </url>
   
   <url>
@@ -52,6 +44,18 @@
   
   <url>
     <loc>https://digcre.io/post/2023/2023-07-10-traefik-reverse-proxy-with-ionos-certificates/</loc>
+  </url>
+  
+  <url>
+    <loc>https://digcre.io/tags/powershell/</loc>
+  </url>
+  
+  <url>
+    <loc>https://digcre.io/post/2023/2023-07-18-redeploy-your-machine-with-ease/</loc>
+  </url>
+  
+  <url>
+    <loc>https://digcre.io/tags/visual-studio-code/</loc>
   </url>
   
   <url>

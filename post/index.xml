@@ -9,15 +9,6 @@
     <copyright>Copyright &amp;#169; 2023 Daniel Knobloch</copyright>
     <lastBuildDate>Tue, 18 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://digcre.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Redeploy your workstation with ease</title>
-      <link>https://digcre.io/post/2023/2023-07-18-redeploy-your-machine-with-ease/</link>
-      <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://digcre.io/post/2023/2023-07-18-redeploy-your-machine-with-ease/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Use traefik certificate enrolment with IONOS certificates</title>
       <link>https://digcre.io/post/2023/2023-07-10-traefik-reverse-proxy-with-ionos-certificates/</link>
       <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
@@ -25,6 +16,17 @@
       <guid>https://digcre.io/post/2023/2023-07-10-traefik-reverse-proxy-with-ionos-certificates/</guid>
       <description>Introduction I use traefik reverse proxy as the entrypoint for all my docker container services to have proper SSL termination. To enrol my certificates I use the development API for IONOS to solve the dns-challenge and hand it over to the resolver to request a new certificate when I create a new service.
 What is covered or what is the TL;DR here ? We use a Kubernetes Cluster to deploy KAN into it and use the ready to use AI Skills to connect our Videostream from the camera to detect vehicles.</description>
+    </item>
+    
+    <item>
+      <title>Re-deploy apps on your workstation with ease</title>
+      <link>https://digcre.io/post/2023/2023-07-18-redeploy-your-machine-with-ease/</link>
+      <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://digcre.io/post/2023/2023-07-18-redeploy-your-machine-with-ease/</guid>
+      <description>Introduction With the release of version 1.5 of Winget we can finally add multiple app names in one install/uninstall command. Now we dont need to create powershell scripts to run the winget command multiple times for each action and app again.
+Implementation If youre running Windows 11 you already have winget installed, on Windows 10 you can get it via store.
+You can verify installation via winget -v for version and winget &amp;ndash;info for generic information.</description>
     </item>
     
     <item>

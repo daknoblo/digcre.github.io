@@ -210,7 +210,7 @@
               
                 
               
-            By Daniel &#183; 352 words &#183; 2 min read &#183; <span class=''>Last updated: June 25, 2023</div>
+            By Daniel &#183; 398 words &#183; 3 min read &#183; <span class=''>Last updated: June 25, 2023</div>
           
           
           
@@ -273,12 +273,24 @@
          alt="alt text" width="100%"/>
 </figure>
 
+<p>I deployed KAN via <a href="https://github.com/Azure/KAN/blob/main/docs/tutorial/setup-guide.md">the following documentation</a></p>
 <p>So this is our first output after attaching the RTSP stream to our KAN deployment.</p>
 <figure><img src="/uploads/2023/2023-06-25-using-kubeai-nucleus-for-edge/vid1.gif"
          alt="alt text" width="100%"/>
 </figure>
 
-<p>I deployed KAN via <a href="https://github.com/Azure/KAN/blob/main/docs/tutorial/setup-guide.md">the following documentation</a></p>
+<p>For this you need to create a workflow (AI Skill) with the following parts:</p>
+<ul>
+<li>Skill name</li>
+<li>Device: CPU (your Kubernetes Cluster vCPU)</li>
+<li>Camera: the registered link to your RTSP camera</li>
+<li>and finally deploy the whole solution</li>
+</ul>
+<figure><img src="/uploads/2023/2023-06-25-using-kubeai-nucleus-for-edge/workflow.png"
+         alt="alt text" width="100%"/>
+</figure>
+
+<p>You could attach a IoT Hub connection to catch the output of the detection/skill</p>
 <figure><img src="/uploads/2023/2023-06-25-using-kubeai-nucleus-for-edge/vid2.gif"
          alt="alt text" width="100%"/>
 </figure>
@@ -288,8 +300,7 @@
          alt="alt text" width="100%"/>
 </figure>
 
-<p>Even tho the results pretty good, I dont want to handle a fully blown Kuberentes Cluster. If there is ongoing progress on the AI Skills built into KAN, we can test this again but for the moment I will probably switch to another platform.</p>
-<p>{{ template &ldquo;_internal/disqus.html&rdquo; . }}</p>
+<p>Even tho the results are pretty good, I dont want to handle a fully blown Kuberentes Cluster. If there is ongoing progress on the AI Skills built into KAN, we can test this again but for the moment I will probably switch to another platform.</p>
 
       </div>
       

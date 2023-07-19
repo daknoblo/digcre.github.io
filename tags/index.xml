@@ -54,15 +54,6 @@
     </item>
     
     <item>
-      <title>Powershell</title>
-      <link>https://digcre.io/tags/powershell/</link>
-      <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://digcre.io/tags/powershell/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>proxy</title>
       <link>https://digcre.io/tags/proxy/</link>
       <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
@@ -81,9 +72,27 @@
     </item>
     
     <item>
+      <title>Powershell</title>
+      <link>https://digcre.io/tags/powershell/</link>
+      <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://digcre.io/tags/powershell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visual Studio Code</title>
+      <link>https://digcre.io/tags/visual-studio-code/</link>
+      <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://digcre.io/tags/visual-studio-code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>winget</title>
       <link>https://digcre.io/tags/winget/</link>
-      <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>https://digcre.io/tags/winget/</guid>
       <description></description>
