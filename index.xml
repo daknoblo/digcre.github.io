@@ -13,7 +13,7 @@
     
     
     <item>
-      <title>Use traefik certificate enrolment with IONOS certificates</title>
+      <title>Use traefik &amp; LE resolver for automatic enrolment of IONOS certificates</title>
       <link>https://digcre.io/post/2023/2023-07-10-traefik-reverse-proxy-with-ionos-certificates/</link>
       
       <guid>https://digcre.io/post/2023/2023-07-10-traefik-reverse-proxy-with-ionos-certificates/</guid>
